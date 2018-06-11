@@ -1,0 +1,51 @@
+#service{
+    text-align:center;
+}
+dt{
+
+    text-align:right;
+    margin-right:550px;
+    color:blue;
+    text-decoration: underline;
+
+}
+
+dd{
+    text-align:right;
+    margin-right: 10px;
+    margin-left: 1200px;
+    
+}
+
+#menu-projet{
+
+    text-align: center;
+    border:1px blue solid;
+}
+
+#menu-projet a:hover{
+    
+   border-bottom:3px #2CDAF9 solid;
+   padding-top:30px;
+}
+
+#logo_ordi{
+
+    position:absolute;
+    margin-bottom:355px;
+}
+#legende{
+    text-align: right;
+}
+
+
+ul#menu-projet {
+        list-style-type : none;
+        text-align: center;
+        }
+
+#projet{
+
+    border:2px none white ;
+    background-color: #F5F5F5;
+}

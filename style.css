@@ -1,0 +1,18 @@
+
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+
+@import "menu.css";
+@import "Projet.css";
+@import "Formulaire.css";
+@import "Service.css";
+@import "Media_querries.css";
+
+
+p{
+    font-family:'Oswald';
+}
+
+dd{
+    font-family:'Oswald';
+}

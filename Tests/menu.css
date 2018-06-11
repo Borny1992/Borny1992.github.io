@@ -1,0 +1,113 @@
+a:link{
+cursor: pointer;
+}
+
+#menu {
+    position:relative;
+    margin-top: 10px; 
+    z-index: 99;
+}
+#logo{
+    position:absolute;
+    margin-top: 10px;
+}
+
+ul#menu li { 
+    display : inline;
+    padding : 0 0.5em;
+}
+ul#menu {
+    list-style-type : none;
+
+}
+
+#menu a:hover {
+   border-bottom:3px #2CDAF9 solid;
+   padding-top:10px;
+}
+
+a{
+    text-decoration:none;
+    color:black;
+}
+
+li{   
+    font-size:30px;
+    margin:0px 10px 10px 5px;
+    padding:20px 10px 20px 5px;
+    margin-right: 100px;
+}
+
+#acceuil{
+    position:relative;
+    width: 100%;
+    height: 100%;
+}
+
+
+#fille{
+
+    max-width: 100%;
+    height: auto;
+}
+
+h1{
+    font-size:60px;
+    text-align: center;
+}
+
+.slide {
+    position: relative;
+}
+
+.slider-left a:hover{
+    color:blue;
+    cursor: pointer;
+
+}
+
+.slider-left {
+    position: relative;
+    font-size: 52px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    left: 11px;
+    top: -380px;
+    width: 49px;
+    height: 49px;
+}
+
+.slider-left:before {
+    display: block;
+    position: absolute;
+    left: -11px;
+    top: -3px;
+    content: '';
+    width: 40px;
+    height: 40px;
+    z-index: -1;
+}
+
+.slider-right {
+    position: relative;
+    font-size: 52px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    left: 1851px;
+    top: -423px;
+    width: 49px;
+    height: 49px;
+}
+
+.slider-right:before {
+    display: block;
+    position: absolute;
+    left: -11px;
+    top: -3px;
+    content: '';
+    width: 40px;
+    height: 40px;
+    z-index: -1;
+}

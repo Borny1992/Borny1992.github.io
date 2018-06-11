@@ -1,0 +1,76 @@
+@media screen and (max-width: 1024px){
+
+    body{width: auto;}
+
+    #menu{display:flex;
+        flex-direction: column;
+        text-align: right;
+        text-decoration: none;
+        margin-right: 5px;
+       
+        }
+
+    aside dt: dd{
+        text-align: right;
+    }
+
+    #logo_ordi{
+        display:none;
+    }
+
+    dt{
+        text-align: center;
+        margin-left: 20px;
+        margin-right: 100px;
+    }
+    dd{
+        margin-right: 100px;
+        margin-left: 10px
+    }
+
+    .container {
+
+        size:10%;
+        margin-left: 20px
+    }
+
+   
+    #google {
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;>
+height:0;
+width: 100%;
+}
+
+#google iframe {
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+
+form{
+    position:relative;
+    right:0px;
+    margin-right: 0px;
+}
+
+li#menu-projet{
+display:flex;
+margin-left: 0px;
+margin-right: 650px;
+text-align: left;
+padding: 2px;
+border:1px blue solid;
+}
+
+.slider-right{
+    display:none;
+}
+
+.slider-left{
+
+    display:none;
+}

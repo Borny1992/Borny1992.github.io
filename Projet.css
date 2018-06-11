@@ -1,0 +1,58 @@
+#service{
+    text-align:center;
+}
+dt{
+
+    text-align:center;
+    margin-right:150px;
+    margin-left:1000px;
+    font-weight:bold;
+    font-size: 2.0em;
+
+}
+
+dd{
+    text-align:right;
+    margin-right: 10px;
+    margin-left: 1200px;
+    
+}
+
+
+#menu-projet{
+
+    text-align: justify;
+    margin-left: 500px;
+}
+
+#menu-projet a:hover{
+    
+   border-bottom:3px #2CDAF9 solid;
+   padding-top:30px;
+}
+
+#logo_ordi{
+
+    position:absolute;
+    margin-bottom:355px;
+
+}
+#legende{
+    text-align: right;
+}
+
+#projet{
+
+    border:2px none white ;
+    background-color: #F5F5F5;
+}
+.icones{
+    float:left; 
+    box-sizing: border-box;
+    display: inline-block;
+    padding-right: 20px;
+    width:100px;
+    height:80px;
+    margin-left: 1050px;
+    margin-top:-20px;
+}

@@ -1,0 +1,21 @@
+#service{
+    text-align:center;
+}
+dt{
+
+    text-align:right;
+    margin-right:550px;
+    color:blue;
+    text-decoration: underline;
+
+}
+
+dd{
+    
+    margin-right: 10px;
+    margin-left: 1200px;
+    background-color: red;
+    
+}
+
+
