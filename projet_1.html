@@ -2,9 +2,8 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <link rel="stylesheet" href="style.css">
-        <title>Web Agency: L'agence de tous vos projets !</title>
-        <meta name="description" content="Un site sur-mesure pour tous vos projets web !" />
+        <link rel="stylesheet" href="style.css"> 
+         
     </head>
 
     <body>
@@ -75,16 +74,16 @@
                
                 <img id="logo_ordi" src="main-feature.png" alt="ordi">
            
-                <dl" id="legende">
+                <dl style="margin-right: 50px;" id="legende">
                    
-                    <dt><strong> UX Design </strong></dt>
+                    <dt> UX Design</dt>
                         <img class="icones" src="Fléche.jpg" alt="logo fleche"/><dd>Issue des sciences humaines et de la démarche ergonomique, la pratique de l'expérience de l'utilisateur a pour objectif de déterminer la satisfaction liée à l'utilisation de fonctions tant sur la forme, sur le fond, que sur la manière d'y accéder ainsi que sur l'impact de notoriété du diffuseur du support.</dd>
                     
-                    <dt><strong>UI Design</strong></dt>
-                        <img class="icones" src="box.jpg" alt="logo fleche"/><dd>UI est l’abréviation d’user interface ou interface utilisateur. L’UI design se rapporte donc à <em>l’environnement graphique</em> dans lequel évolue l’utilisateur d’un logiciel, d’un <em>site web</em> ou d’une application. L'UX design compte: éléments graphiques, boutons, navigation, typographie…</dd>
+                    <dt>UI Design</dt>
+                        <img class="icones" src="box.jpg" alt="logo fleche"/><dd>UI est l’abréviation d’user interface ou interface utilisateur. L’UI design se rapporte donc à l’environnement graphique dans lequel évolue l’utilisateur d’un logiciel, d’un site web ou d’une application. L'UX design compte: éléments graphiques, boutons, navigation, typographie…</dd>
                     
-                    <dt><strong>Responsive Design</strong></dt>
-                        <img class="icones" src="Camembret.jpg" alt="logo fleche"/><dd><em>Un site web adaptatif</em> (anglais RWD pour responsive web design) est un site web dont la conception vise à offrir une consultation confortable même pour des supports différents. L'utilisateur peut ainsi consulter le même site web à travers une large gamme d'appareils (moniteurs d'ordinateur, smartphone, tablettes, télévision…) avec le même confort visuel.</dd>
+                    <dt>Responsive Design</dt>
+                        <img class="icones" src="Camembret.jpg" alt="logo fleche"/><dd>Un site web adaptatif (anglais RWD pour responsive web design) est un site web dont la conception vise à offrir une consultation confortable même pour des supports différents. L'utilisateur peut ainsi consulter le même site web à travers une large gamme d'appareils (moniteurs d'ordinateur, smartphone, tablettes, télévision…) avec le même confort visuel.</dd>
                 </dl>
             </div>  
          </section>
@@ -115,7 +114,7 @@
         </section> 
         
         <section id="contact">
-            
+            <div id="map"></div>
             <div id="form-contact">
                 <h1 id="ancre_contact" style="text-align: center">CONTACT INFO</h1>
                 <form>
@@ -128,9 +127,8 @@
                     <label>Message</label> : <textarea name="message" id="message" rows="10" cols="50"/></textarea>
                     <input class="button" type="submit" value="Envoyer"/> 
                 </form>
-                <div id="map"></div>
             </div>
-
+        </section>
 
         <script id="map-google">
             var map;
@@ -142,7 +140,6 @@
             }
         </script>
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDn7e-8FgYeYiKa1pwSH-zgTxSWDc6UNJc&callback=initMap" async defer>
-    	</script>
-		</section>
+    </script>
     </body>
 </html>

@@ -1,24 +1,24 @@
-#service{
-    text-align:center;
-}
+
 dt{
 
-    text-align:center;
+    text-align:left;
     margin-right:150px;
-    margin-left:1000px;
+    margin-left:1190px;
     font-weight:bold;
     font-size: 2.0em;
 
 }
 
 dd{
-    text-align:right;
+    text-align:left;
     margin-right: 10px;
     margin-left: 1200px;
     
 }
 
-
+#service{
+    text-align: center;
+}
 #menu-projet{
 
     text-align: justify;

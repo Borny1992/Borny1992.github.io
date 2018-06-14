@@ -8,29 +8,46 @@ input{
 
 }
 
+#map {
+        height: 800px;
+        width: 1800px;
+        position: relative;
+       }
 
-
-#map-google{
     
-   
+form{
+    
+    display:inline-block;
+    flex-direction: column;
     z-index: 1;
     border: 2px none white;
     width: 400px;
     height: 500px; 
-   
+    position: absolute;
     right: 100px;
-    top:180px;
+    top:200px;
     background-color: rgba(255,255,255,0.9);
     border-radius: 20px;
     text-align: center;
 
+}
+
+#map-google{
+    z-index: 1;
+    border: 2px none white;
+    right: 100px;
+    background-color: rgba(255,255,255,0.9);
+    border-radius: 20px;
+    text-align: center;
+    max-width: 100%;
+    max-height:100%;
 }
 #contact{
 
     display:inline-block;
     flex-direction:column;
     text-align:right;
-    position: relative;
+    position: absolute;
 }
 
 

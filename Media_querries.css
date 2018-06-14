@@ -43,18 +43,11 @@
     #google {
         overflow:hidden;
         padding-bottom:56.25%;
-        position:relative;>
-        height:0;
-        width: 100%;
+        position:relative;
+        
 }
 
-    #google iframe {
-        left:0;
-        top:0;
-        height:100%;
-        width:100%;
-        position:absolute;
-}
+   
 
     form{
         position:relative;
@@ -99,4 +92,12 @@ dd{
 
 .icones{
     display:none;
+}
+
+
+#map{
+
+    width: 600px;
+    height: 850px;
+    margin-top:20px;
 }
