@@ -1,0 +1,12 @@
+#projets {
+    background: #ddd;
+    height: inherit;
+}
+
+.menu_projets li {
+    display: inline-block;
+}
+
+.img_projets img {
+    width: 20%;
+}

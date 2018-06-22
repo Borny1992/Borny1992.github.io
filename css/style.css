@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+@import "header.css";
+@import "slider.css";
+@import "services.css";
+@import "projets.css";
+@import "contact.css";
+@import "media_querries.css";
+
+body {
+	overflow-x: hidden;
+    font-family: 'Oswald';
+}
+
+section {
+	position: relative;
+	height: 100vh;
+	text-align: center;
+}
+
+section .rond_bleu{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #75a0e5;
+    margin: auto;
+    margin-top: -40px;
+}
+
+section h1 {
+	text-transform: uppercase;
+}
+
+section p {
+	margin-bottom: 40px;
+}
